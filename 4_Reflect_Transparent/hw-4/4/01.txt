@@ -1,0 +1,29 @@
+size 640 480
+color red 1 0 0
+color blue .2 .2 .8
+color white 1 1 1
+phong_shader red_shader red red white 50
+phong_shader blue_shader blue blue white 50
+phong_shader white_shader white white white 50
+reflective_shader reflectr red_shader .8
+reflective_shader reflectb blue_shader .4
+plane P0 -1 0 0 1 0 0
+shaded_object P0 reflectr
+plane P1 1 0 0 -1 0 0
+shaded_object P1 reflectr
+plane P2 0 -1 0 0 1 0
+shaded_object P2 reflectb
+plane P3 0 1 0 0 -1 0
+shaded_object P3 reflectb
+plane Pb 0 0 -10 0 0 1
+shaded_object Pb blue_shader
+sphere Sw 0 0 -8 .8
+shaded_object Sw white_shader
+point_light L .8 .8 4 white 100
+ambient_light white .3
+enable_shadows 1
+recursion_depth_limit 2
+camera 0.02 0.01 4 0 0 0 0 1 0 70
+# GRADING 3 0.10
+# NOTE Test recursion depth.
+# DEBUG 230 230

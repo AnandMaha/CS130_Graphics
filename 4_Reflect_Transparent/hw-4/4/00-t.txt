@@ -1,0 +1,24 @@
+debug pixel: -x 5 -y 250
+  cast ray (end: (0.02 0.01 4); dir: (-0.570915 0.0168644 -0.820836))
+    intersect test with P0; hit: (dist: 1.78661; triangle: -1; uv: (0 0))
+    no intersection with P1
+    no intersection with P2
+    intersect test with P3; hit: (dist: 58.7036; triangle: -1; uv: (0 0))
+    intersect test with Pb; hit: (dist: 17.0558; triangle: -1; uv: (0 0))
+    no intersection with Sw
+    closest intersection; obj: P0; hit: (dist: 1.78661; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (-1 0.04013 2.53349); normal: (1 0 0)
+    ambient: (0.3 0 0)
+      no intersection with P0
+      intersect test with P1; hit: (dist: 2.7144; triangle: -1; uv: (0 0))
+      no intersection with P2
+      intersect test with P3; hit: (dist: 3.08595; triangle: -1; uv: (0 0))
+      no intersection with Pb
+      no intersection with Sw
+      closest intersection; obj: P1; hit: (dist: 2.7144; triangle: -1; uv: (0 0))
+    light L visible; closest object on ray too far away (light dist: 2.44296; object dist: 2.7144)
+    shading for light L: diffuse: (0.982456 0 0); specular: (0 0 0)
+    final color (1.28246 0 0)
+    cast ray (end: (-1 0.04013 2.53349); dir: (0.570915 0.0168644 -0.820836))
+    ray too deep; return black
+  reflected ray: (end: (-1 0.04013 2.53349); dir: (0.570915 0.0168644 -0.820836)); reflected color: (0 0 0); object color: (1.28246 0 0); final color: (0.256491 0 0)

@@ -1,0 +1,43 @@
+debug pixel: -x 350 -y 160
+  cast ray (end: (0 1 6); dir: (0.0656094 -0.330305 -0.941591))
+    intersect test with g; hit: (dist: 3.0275; triangle: -1; uv: (0 0))
+    no intersection with S0
+    no intersection with S1
+    no intersection with S2
+    no intersection with S3
+    no intersection with S4
+    no intersection with S5
+    no intersection with S6
+    closest intersection; obj: g; hit: (dist: 3.0275; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (0.198633 0 3.14933); normal: (0 1 0)
+      cast ray (end: (0.198633 0 3.14933); dir: (0.0656094 0.330305 -0.941591))
+        no intersection with g
+        no intersection with S0
+        no intersection with S1
+        no intersection with S2
+        no intersection with S3
+        intersect test with S4; hit: (dist: 3.04497; triangle: -1; uv: (0 0))
+        no intersection with S5
+        no intersection with S6
+        closest intersection; obj: S4; hit: (dist: 3.04497; triangle: -1; uv: (0 0))
+      call Shade_Surface with location (0.398411 1.00577 0.282217); normal: (-0.338629 0.0192336 0.940723)
+        ambient: (0 0 0)
+        shading for light L0: diffuse: (0.447323 0 0); specular: (8.46716e-05 8.46716e-05 8.46716e-05)
+        final color (0.447408 8.46716e-05 8.46716e-05)
+    reflected ray: (end: (0.198633 0 3.14933); dir: (0.0656094 0.330305 -0.941591)); reflected color: (0.447408 8.46716e-05 8.46716e-05)
+      cast ray (end: (0.198633 0 3.14933); dir: (0.0546745 -0.617512 -0.784659))
+        no intersection with g
+        no intersection with S0
+        no intersection with S1
+        no intersection with S2
+        no intersection with S3
+        no intersection with S4
+        no intersection with S5
+        no intersection with S6
+        closest intersection; none
+      no background; return black
+    transmitted ray: (end: (0.198633 0 3.14933); dir: (0.0546745 -0.617512 -0.784659)); transmitted color: (0 0 0); Schlick reflectivity: 0.141856; combined color: (0.0634676 1.20112e-05 1.20112e-05)
+      ambient: (0 0 0)
+      shading for light L0: diffuse: (0.750138 0.750138 0.750138); specular: (0 0 0)
+      final color (0.750138 0.750138 0.750138)
+    object color: (0.750138 0.750138 0.750138); final color: (0.200802 0.150037 0.150037)

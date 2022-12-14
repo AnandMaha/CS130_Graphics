@@ -1,0 +1,42 @@
+debug pixel: -x 280 -y 130
+  cast ray (end: (0 1 6); dir: (-0.0837575 -0.388341 -0.917701))
+    intersect test with g; hit: (dist: 2.57505; triangle: -1; uv: (0 0))
+    no intersection with S0
+    no intersection with S1
+    no intersection with S2
+    no intersection with S3
+    no intersection with S4
+    no intersection with S5
+    no intersection with S6
+    closest intersection; obj: g; hit: (dist: 2.57505; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (-0.21568 1.11022e-16 3.63687); normal: (0 -1 0)
+      cast ray (end: (-0.21568 1.11022e-16 3.63687); dir: (-0.0837575 0.388341 -0.917701))
+        no intersection with g
+        no intersection with S0
+        no intersection with S1
+        no intersection with S2
+        no intersection with S3
+        no intersection with S4
+        no intersection with S5
+        no intersection with S6
+        closest intersection; none
+      no background; return black
+    reflected ray: (end: (-0.21568 1.11022e-16 3.63687); dir: (-0.0837575 0.388341 -0.917701)); reflected color: (0 0 0)
+      cast ray (end: (-0.21568 1.11022e-16 3.63687); dir: (-0.0879454 -0.252521 -0.963586))
+        no intersection with g
+        no intersection with S0
+        no intersection with S1
+        intersect test with S2; hit: (dist: 3.4894; triangle: -1; uv: (0 0))
+        no intersection with S3
+        no intersection with S4
+        no intersection with S5
+        no intersection with S6
+        closest intersection; obj: S2; hit: (dist: 3.4894; triangle: -1; uv: (0 0))
+      call Shade_Surface with location (-0.522557 -0.881149 0.274528); normal: (-0.0751897 0.396171 0.915093)
+        ambient: (0 0 0)
+        shading for light L0: diffuse: (0.379504 0 0); specular: (0.0228987 0.0228987 0.0228987)
+        final color (0.402403 0.0228987 0.0228987)
+    transmitted ray: (end: (-0.21568 1.11022e-16 3.63687); dir: (-0.0879454 -0.252521 -0.963586)); transmitted color: (0.402403 0.0228987 0.0228987); Schlick reflectivity: 0.233799; combined color: (0.308322 0.017545 0.017545)
+      ambient: (0 0 0)
+      final color (0 0 0)
+    object color: (0 0 0); final color: (0.308322 0.017545 0.017545)

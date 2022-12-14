@@ -1,0 +1,31 @@
+debug pixel: -x 420 -y 40
+  cast ray (end: (0 1 6); dir: (0.19757 -0.534553 -0.821717))
+    intersect test with g; hit: (dist: 1.87072; triangle: -1; uv: (0 0))
+    no intersection with S0
+    no intersection with S1
+    no intersection with S2
+    no intersection with S3
+    no intersection with S4
+    no intersection with S5
+    no intersection with S6
+    closest intersection; obj: g; hit: (dist: 1.87072; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (0.369598 0 4.4628); normal: (0 -1 0)
+      cast ray (end: (0.369598 0 4.4628); dir: (0.19757 0.534553 -0.821717))
+        no intersection with g
+        no intersection with S0
+        no intersection with S1
+        no intersection with S2
+        no intersection with S3
+        no intersection with S4
+        no intersection with S5
+        intersect test with S6; hit: (dist: 5.20899; triangle: -1; uv: (0 0))
+        closest intersection; obj: S6; hit: (dist: 5.20899; triangle: -1; uv: (0 0))
+      call Shade_Surface with location (1.39874 2.78448 0.182481); normal: (-0.337541 -0.718384 0.608269)
+        ambient: (0 0 0)
+        shading for light L0: diffuse: (0.331297 0 0); specular: (1.00205e-14 1.00205e-14 1.00205e-14)
+        final color (0.331297 1.00205e-14 1.00205e-14)
+    reflected ray: (end: (0.369598 0 4.4628); dir: (0.19757 0.534553 -0.821717)); reflected color: (0.331297 1.00205e-14 1.00205e-14)
+    complete internal reflection
+      ambient: (0 0 0)
+      final color (0 0 0)
+    object color: (0 0 0); final color: (0.331297 1.00205e-14 1.00205e-14)

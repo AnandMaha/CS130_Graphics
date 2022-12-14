@@ -1,0 +1,84 @@
+debug pixel: -x 70 -y 250
+  cast ray (end: (0.02 0.01 4); dir: (-0.483467 0.017968 -0.875178))
+    intersect test with P0; hit: (dist: 2.10976; triangle: -1; uv: (0 0))
+    no intersection with P1
+    no intersection with P2
+    intersect test with P3; hit: (dist: 55.0979; triangle: -1; uv: (0 0))
+    intersect test with Pb; hit: (dist: 15.9967; triangle: -1; uv: (0 0))
+    no intersection with Sw
+    closest intersection; obj: P0; hit: (dist: 2.10976; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (-1 0.0479083 2.15358); normal: (1 0 0)
+    ambient: (0.3 0 0)
+      no intersection with P0
+      intersect test with P1; hit: (dist: 2.98451; triangle: -1; uv: (0 0))
+      no intersection with P2
+      intersect test with P3; hit: (dist: 3.40035; triangle: -1; uv: (0 0))
+      no intersection with Pb
+      no intersection with Sw
+      closest intersection; obj: P1; hit: (dist: 2.98451; triangle: -1; uv: (0 0))
+    light L visible; closest object on ray too far away (light dist: 2.68606; object dist: 2.98451)
+    shading for light L: diffuse: (0.739124 0 0); specular: (0 0 0)
+    final color (1.03912 0 0)
+    cast ray (end: (-1 0.0479083 2.15358); dir: (0.483467 0.017968 -0.875178))
+      no intersection with P0
+      intersect test with P1; hit: (dist: 4.13679; triangle: -1; uv: (0 0))
+      no intersection with P2
+      intersect test with P3; hit: (dist: 52.9881; triangle: -1; uv: (0 0))
+      intersect test with Pb; hit: (dist: 13.887; triangle: -1; uv: (0 0))
+      no intersection with Sw
+      closest intersection; obj: P1; hit: (dist: 4.13679; triangle: -1; uv: (0 0))
+    call Shade_Surface with location (1 0.122238 -1.46684); normal: (-1 0 0)
+      ambient: (0.3 0 0)
+        intersect test with P0; hit: (dist: 55.1232; triangle: -1; uv: (0 0))
+        no intersection with P1
+        no intersection with P2
+        intersect test with P3; hit: (dist: 7.13895; triangle: -1; uv: (0 0))
+        no intersection with Pb
+        no intersection with Sw
+        closest intersection; obj: P3; hit: (dist: 7.13895; triangle: -1; uv: (0 0))
+      light L visible; closest object on ray too far away (light dist: 5.51232; object dist: 7.13895)
+      shading for light L: diffuse: (0.00950202 0 0); specular: (0 0 0)
+      final color (0.309502 0 0)
+      cast ray (end: (1 0.122238 -1.46684); dir: (-0.483467 0.017968 -0.875178))
+        intersect test with P0; hit: (dist: 4.13679; triangle: -1; uv: (0 0))
+        no intersection with P1
+        no intersection with P2
+        intersect test with P3; hit: (dist: 48.8513; triangle: -1; uv: (0 0))
+        intersect test with Pb; hit: (dist: 9.7502; triangle: -1; uv: (0 0))
+        no intersection with Sw
+        closest intersection; obj: P0; hit: (dist: 4.13679; triangle: -1; uv: (0 0))
+      call Shade_Surface with location (-1 0.196568 -5.08727); normal: (1 0 0)
+        ambient: (0.3 0 0)
+          no intersection with P0
+          intersect test with P1; hit: (dist: 10.315; triangle: -1; uv: (0 0))
+          no intersection with P2
+          intersect test with P3; hit: (dist: 12.3603; triangle: -1; uv: (0 0))
+          no intersection with Pb
+          no intersection with Sw
+          closest intersection; obj: P1; hit: (dist: 10.315; triangle: -1; uv: (0 0))
+        light L visible; closest object on ray too far away (light dist: 9.28346; object dist: 10.315)
+        shading for light L: diffuse: (0.0179033 0 0); specular: (0 0 0)
+        final color (0.317903 0 0)
+        cast ray (end: (-1 0.196568 -5.08727); dir: (0.483467 0.017968 -0.875178))
+          no intersection with P0
+          intersect test with P1; hit: (dist: 4.13679; triangle: -1; uv: (0 0))
+          no intersection with P2
+          intersect test with P3; hit: (dist: 44.7145; triangle: -1; uv: (0 0))
+          intersect test with Pb; hit: (dist: 5.61341; triangle: -1; uv: (0 0))
+          intersect test with Sw; hit: (dist: 2.48802; triangle: -1; uv: (0 0))
+          closest intersection; obj: Sw; hit: (dist: 2.48802; triangle: -1; uv: (0 0))
+        call Shade_Surface with location (0.202874 0.241273 -7.26472); normal: (0.253592 0.301591 0.919094)
+          ambient: (0.3 0.3 0.3)
+            no intersection with P0
+            intersect test with P1; hit: (dist: 15.0773; triangle: -1; uv: (0 0))
+            no intersection with P2
+            intersect test with P3; hit: (dist: 15.3373; triangle: -1; uv: (0 0))
+            no intersection with Pb
+            no intersection with Sw
+            closest intersection; obj: P1; hit: (dist: 15.0773; triangle: -1; uv: (0 0))
+          light L visible; closest object on ray too far away (light dist: 11.2944; object dist: 15.0773)
+          shading for light L: diffuse: (0.0589525 0.0589525 0.0589525); specular: (3.65729e-20 3.65729e-20 3.65729e-20)
+          final color (0.358952 0.358952 0.358952)
+      reflected ray: (end: (-1 0.196568 -5.08727); dir: (0.483467 0.017968 -0.875178)); reflected color: (0.358952 0.358952 0.358952); object color: (0.317903 0 0); final color: (0.350743 0.287162 0.287162)
+    reflected ray: (end: (1 0.122238 -1.46684); dir: (-0.483467 0.017968 -0.875178)); reflected color: (0.350743 0.287162 0.287162); object color: (0.309502 0 0); final color: (0.342495 0.22973 0.22973)
+  reflected ray: (end: (-1 0.0479083 2.15358); dir: (0.483467 0.017968 -0.875178)); reflected color: (0.342495 0.22973 0.22973); object color: (1.03912 0 0); final color: (0.48182 0.183784 0.183784)

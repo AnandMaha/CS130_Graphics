@@ -1,0 +1,163 @@
+debug pixel: -x 350 -y 300
+  cast ray (end: (0 1 6); dir: (0.066017 -0.0334516 -0.997258))
+    intersect test with Py; hit: (dist: 59.7879; triangle: -1; uv: (0 0))
+    no intersection with Px
+    intersect test with Pz; hit: (dist: 7.01925; triangle: -1; uv: (0 0))
+    no intersection with Sb
+    no intersection with Sr
+    intersect test with Sg; hit: (dist: 5.75372; triangle: -1; uv: (0 0))
+    intersect test with St; hit: (dist: 4.70207; triangle: -1; uv: (0 0))
+    closest intersection; obj: St; hit: (dist: 4.70207; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (0.310417 0.842708 1.31082); normal: (-0.379167 0.685416 0.621641)
+      cast ray (end: (0.310417 0.842708 1.31082); dir: (-0.44047 0.882122 -0.166875))
+        no intersection with Py
+        intersect test with Px; hit: (dist: 2.97504; triangle: -1; uv: (0 0))
+        intersect test with Pz; hit: (dist: 13.8476; triangle: -1; uv: (0 0))
+        no intersection with Sb
+        no intersection with Sr
+        no intersection with Sg
+        no intersection with St
+        closest intersection; obj: Px; hit: (dist: 2.97504; triangle: -1; uv: (0 0))
+      call Shade_Surface with location (-1 3.46705 0.81436); normal: (1 0 0)
+        ambient: (0 0 0)
+        shading for light L0: diffuse: (0.0401799 0.0401799 0.0401799); specular: (0 0 0)
+        final color (0.0401799 0.0401799 0.0401799)
+    reflected ray: (end: (0.310417 0.842708 1.31082); dir: (-0.44047 0.882122 -0.166875)); reflected color: (0.0401799 0.0401799 0.0401799)
+      cast ray (end: (0.310417 0.842708 1.31082); dir: (0.0891511 -0.0793608 -0.992851))
+        intersect test with Py; hit: (dist: 23.2194; triangle: -1; uv: (0 0))
+        no intersection with Px
+        intersect test with Pz; hit: (dist: 2.32746; triangle: -1; uv: (0 0))
+        no intersection with Sb
+        no intersection with Sr
+        intersect test with Sg; hit: (dist: 1.22242; triangle: -1; uv: (0 0))
+        intersect test with St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+        closest intersection; obj: St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+      call Shade_Surface with location (0.373303 0.786727 0.610468); normal: (-0.253393 0.573455 -0.779065)
+          cast ray (end: (0.373303 0.786727 0.610468); dir: (0.446636 -0.888385 0.106245))
+            intersect test with Py; hit: (dist: 2.01121; triangle: -1; uv: (0 0))
+            no intersection with Px
+            no intersection with Pz
+            no intersection with Sb
+            no intersection with Sr
+            no intersection with Sg
+            intersect test with St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+            closest intersection; obj: St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+          call Shade_Surface with location (0.688358 0.160065 0.685413); normal: (0.376716 -0.679871 -0.629174)
+              cast ray (end: (0.688358 0.160065 0.685413); dir: (-0.0848321 0.07077 0.993879))
+                no intersection with Py
+                intersect test with Px; hit: (dist: 19.9024; triangle: -1; uv: (0 0))
+                no intersection with Pz
+                no intersection with Sb
+                no intersection with Sr
+                no intersection with Sg
+                intersect test with St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+                closest intersection; obj: St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+              call Shade_Surface with location (0.628518 0.209985 1.38649); normal: (0.257036 -0.580029 0.77298)
+                  cast ray (end: (0.628518 0.209985 1.38649); dir: (-0.447456 0.88907 -0.0966345))
+                    no intersection with Py
+                    intersect test with Px; hit: (dist: 3.6395; triangle: -1; uv: (0 0))
+                    intersect test with Pz; hit: (dist: 24.6961; triangle: -1; uv: (0 0))
+                    no intersection with Sb
+                    no intersection with Sr
+                    no intersection with Sg
+                    intersect test with St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+                    closest intersection; obj: St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+                  call Shade_Surface with location (0.312885 0.837131 1.31832); normal: (-0.374231 0.674262 0.636649)
+                      cast ray (end: (0.312885 0.837131 1.31832); dir: (0.0805051 -0.0621725 -0.994813))
+                        intersect test with Py; hit: (dist: 29.5489; triangle: -1; uv: (0 0))
+                        no intersection with Px
+                        intersect test with Pz; hit: (dist: 2.33041; triangle: -1; uv: (0 0))
+                        no intersection with Sb
+                        no intersection with Sr
+                        intersect test with Sg; hit: (dist: 1.14884; triangle: -1; uv: (0 0))
+                        intersect test with St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+                        closest intersection; obj: St; hit: (dist: 0.705395; triangle: -1; uv: (0 0))
+                      call Shade_Surface with location (0.369673 0.793275 0.616588); normal: (-0.260655 0.586549 -0.766824)
+                          cast ray (end: (0.369673 0.793275 0.616588); dir: (0.448234 -0.889671 0.0870145))
+                          ray too deep; return black
+                        reflected ray: (end: (0.369673 0.793275 0.616588); dir: (0.448234 -0.889671 0.0870145)); reflected color: (0 0 0)
+                          cast ray (end: (0.369673 0.793275 0.616588); dir: (0.103498 -0.107964 -0.988753))
+                          ray too deep; return black
+                        transmitted ray: (end: (0.369673 0.793275 0.616588); dir: (0.103498 -0.107964 -0.988753)); transmitted color: (0 0 0); Schlick reflectivity: 0.0046324; combined color: (0 0 0)
+                          ambient: (0 0 0)
+                          final color (0 0 0)
+                        object color: (0 0 0); final color: (0 0 0)
+                    reflected ray: (end: (0.312885 0.837131 1.31832); dir: (0.0805051 -0.0621725 -0.994813)); reflected color: (0 0 0)
+                      cast ray (end: (0.312885 0.837131 1.31832); dir: (-0.442596 0.884458 -0.147795))
+                        no intersection with Py
+                        intersect test with Px; hit: (dist: 2.96633; triangle: -1; uv: (0 0))
+                        intersect test with Pz; hit: (dist: 15.6861; triangle: -1; uv: (0 0))
+                        no intersection with Sb
+                        no intersection with Sr
+                        no intersection with Sg
+                        no intersection with St
+                        closest intersection; obj: Px; hit: (dist: 2.96633; triangle: -1; uv: (0 0))
+                      call Shade_Surface with location (-1 3.46072 0.879917); normal: (1 0 0)
+                        ambient: (0 0 0)
+                        shading for light L0: diffuse: (0.0414671 0.0414671 0.0414671); specular: (0 0 0)
+                        final color (0.0414671 0.0414671 0.0414671)
+                    transmitted ray: (end: (0.312885 0.837131 1.31832); dir: (-0.442596 0.884458 -0.147795)); transmitted color: (0.0414671 0.0414671 0.0414671); Schlick reflectivity: 0.0046324; combined color: (0.041275 0.041275 0.041275)
+                      ambient: (0 0 0)
+                      shading for light L0: diffuse: (0.493281 0.493281 0.493281); specular: (0 0 0)
+                      final color (0.493281 0.493281 0.493281)
+                    object color: (0.493281 0.493281 0.493281); final color: (0.041275 0.041275 0.041275)
+                reflected ray: (end: (0.628518 0.209985 1.38649); dir: (-0.447456 0.88907 -0.0966345)); reflected color: (0.041275 0.041275 0.041275)
+                  cast ray (end: (0.628518 0.209985 1.38649); dir: (-0.107778 0.116517 0.987324))
+                    no intersection with Py
+                    intersect test with Px; hit: (dist: 15.1099; triangle: -1; uv: (0 0))
+                    no intersection with Pz
+                    no intersection with Sb
+                    no intersection with Sr
+                    no intersection with Sg
+                    no intersection with St
+                    closest intersection; obj: Px; hit: (dist: 15.1099; triangle: -1; uv: (0 0))
+                  call Shade_Surface with location (-1 1.97055 16.3049); normal: (1 0 0)
+                    ambient: (0 0 0)
+                    shading for light L0: diffuse: (0.00707711 0.00707711 0.00707711); specular: (0 0 0)
+                    final color (0.00707711 0.00707711 0.00707711)
+                transmitted ray: (end: (0.628518 0.209985 1.38649); dir: (-0.107778 0.116517 0.987324)); transmitted color: (0.00707711 0.00707711 0.00707711); Schlick reflectivity: 0.0046324; combined color: (0.00723553 0.00723553 0.00723553)
+                  ambient: (0 0 0)
+                  shading for light L0: diffuse: (0.445188 0.445188 0.445188); specular: (4.72729e-48 4.72729e-48 4.72729e-48)
+                  final color (0.445188 0.445188 0.445188)
+                object color: (0.445188 0.445188 0.445188); final color: (0.00723553 0.00723553 0.00723553)
+            reflected ray: (end: (0.688358 0.160065 0.685413); dir: (-0.0848321 0.07077 0.993879)); reflected color: (0.00723553 0.00723553 0.00723553)
+              cast ray (end: (0.688358 0.160065 0.685413); dir: (0.441554 -0.883331 0.157342))
+                intersect test with Py; hit: (dist: 1.31328; triangle: -1; uv: (0 0))
+                no intersection with Px
+                no intersection with Pz
+                no intersection with Sb
+                no intersection with Sr
+                no intersection with Sg
+                no intersection with St
+                closest intersection; obj: Py; hit: (dist: 1.31328; triangle: -1; uv: (0 0))
+              call Shade_Surface with location (1.26824 -1 0.892048); normal: (0 1 0)
+                ambient: (0 0 0)
+                shading for light L0: diffuse: (0.178348 0.178348 0.178348); specular: (2.17829e-23 2.17829e-23 2.17829e-23)
+                final color (0.178348 0.178348 0.178348)
+            transmitted ray: (end: (0.688358 0.160065 0.685413); dir: (0.441554 -0.883331 0.157342)); transmitted color: (0.178348 0.178348 0.178348); Schlick reflectivity: 0.0046324; combined color: (0.177556 0.177556 0.177556)
+              ambient: (0 0 0)
+              final color (0 0 0)
+            object color: (0 0 0); final color: (0.177556 0.177556 0.177556)
+        reflected ray: (end: (0.373303 0.786727 0.610468); dir: (0.446636 -0.888385 0.106245)); reflected color: (0.177556 0.177556 0.177556)
+          cast ray (end: (0.373303 0.786727 0.610468); dir: (0.112048 -0.125059 -0.985802))
+            intersect test with Py; hit: (dist: 14.2871; triangle: -1; uv: (0 0))
+            no intersection with Px
+            intersect test with Pz; hit: (dist: 1.63366; triangle: -1; uv: (0 0))
+            no intersection with Sb
+            no intersection with Sr
+            no intersection with Sg
+            no intersection with St
+            closest intersection; obj: Pz; hit: (dist: 1.63366; triangle: -1; uv: (0 0))
+          call Shade_Surface with location (0.556352 0.582424 -1); normal: (0 0 1)
+            ambient: (0 0 0)
+            shading for light L0: diffuse: (0.320053 0.320053 0.320053); specular: (0.0532875 0.0532875 0.0532875)
+            final color (0.373341 0.373341 0.373341)
+        transmitted ray: (end: (0.373303 0.786727 0.610468); dir: (0.112048 -0.125059 -0.985802)); transmitted color: (0.373341 0.373341 0.373341); Schlick reflectivity: 0.0046324; combined color: (0.372434 0.372434 0.372434)
+          ambient: (0 0 0)
+          final color (0 0 0)
+        object color: (0 0 0); final color: (0.372434 0.372434 0.372434)
+    transmitted ray: (end: (0.310417 0.842708 1.31082); dir: (0.0891511 -0.0793608 -0.992851)); transmitted color: (0.372434 0.372434 0.372434); Schlick reflectivity: 0.0046324; combined color: (0.370895 0.370895 0.370895)
+      ambient: (0 0 0)
+      shading for light L0: diffuse: (0.480784 0.480784 0.480784); specular: (0 0 0)
+      final color (0.480784 0.480784 0.480784)
+    object color: (0.480784 0.480784 0.480784); final color: (0.370895 0.370895 0.370895)
