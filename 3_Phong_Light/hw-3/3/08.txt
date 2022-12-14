@@ -1,0 +1,14 @@
+size 640 480
+color amb 0 0 0
+color diff 1 0 1
+color spec 0 1 1
+color light_color .8 1 .2
+phong_shader shader amb diff spec 50
+sphere Ss .1 .1 .3 2.5
+shaded_object Ss shader
+point_light L 2 5 10 light_color 200
+enable_shadows 0
+recursion_depth_limit 1
+camera 0 1 6 0 0 0 0 1 0 70
+# GRADING 1 0.10
+# NOTE Colors with lights, diffuse, and specular.

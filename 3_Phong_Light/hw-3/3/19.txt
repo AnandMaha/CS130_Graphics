@@ -1,0 +1,16 @@
+size 640 480
+color red 1 0 0
+color white 1 1 1
+color gray .5 .5 .5
+phong_shader red_shader red red white 50
+phong_shader gray_shader gray gray white 50
+plane Pg -1 -1 0 0 1 0
+shaded_object Pg gray_shader
+plane Pr -1 -1 0 1 0 0
+shaded_object Pr red_shader
+point_light L 0 0 0 white 20
+enable_shadows 1
+recursion_depth_limit 1
+camera 0 1 6 0 0 0 0 1 0 70
+# GRADING 1 0.10
+# NOTE Bug test: objects behind the light.
