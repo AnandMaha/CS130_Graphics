@@ -1,0 +1,8 @@
+debug pixel: -x 250 -y 260
+  cast ray (end: (0.02 0.01 4); dir: (-0.155137 0.0418344 -0.987007))
+    intersect test with M; hit: (dist: 3.41794; triangle: 5; uv: (0 0))
+    closest intersection; obj: M; hit: (dist: 3.41794; triangle: 5; uv: (0 0))
+  call Shade_Surface with location (-0.510249 0.152987 0.626472); normal: (-0.590691 0 0.806898)
+    ambient: (0.3 0.3 0.3)
+    shading for light L: diffuse: (0.311986 0.311986 0.311986); specular: (0 0 0)
+    final color (0.611986 0.611986 0.611986)
