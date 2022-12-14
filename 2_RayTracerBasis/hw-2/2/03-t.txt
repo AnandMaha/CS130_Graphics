@@ -1,0 +1,9 @@
+debug pixel: -x 450 -y 160
+  cast ray (end: (0 4 4); dir: (0.0403497 -0.82066 -0.569991))
+    no intersection with Sw
+    no intersection with Sr
+    no intersection with Sg
+    intersect test with Sb; hit: (dist: 4.57289; triangle: -1; uv: (0 0))
+    closest intersection; obj: Sb; hit: (dist: 4.57289; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (0.184515 0.247215 1.3935); normal: (0.369029 0.49443 0.786992)
+    flat shader; color: (0.2 0.2 0.8)

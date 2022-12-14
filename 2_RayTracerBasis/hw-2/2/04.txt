@@ -1,0 +1,26 @@
+size 640 480
+color red 1 0 0
+color green 0 1 0
+color blue .2 .2 .8
+color white 1 1 1
+color gray .5 .5 .5
+flat_shader red_shader red
+flat_shader blue_shader blue
+flat_shader green_shader green
+flat_shader white_shader white
+flat_shader gray_shader gray
+plane Pg 0 -1 0 0 1 0
+shaded_object Pg gray_shader
+sphere Sw 0 0 0 .5
+shaded_object Sw white_shader
+sphere Sr 1 0 0 .5
+shaded_object Sr red_shader
+sphere Sg 0 1 0 .5
+shaded_object Sg green_shader
+sphere Sb 0 0 1 .5
+shaded_object Sb blue_shader
+enable_shadows 0
+recursion_depth_limit 1
+camera 0 1 6 0 0 0 0 1 0 70
+# GRADING 4 0.10
+# NOTE Get basic plane intersections working.

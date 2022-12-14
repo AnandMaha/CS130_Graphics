@@ -1,0 +1,11 @@
+size 640 480
+color white 1 1 1
+flat_shader white_shader white
+sphere S 0 0 0 1
+shaded_object S white_shader
+enable_shadows 0
+recursion_depth_limit 1
+camera 0 4 6 0 0 0 0 1 0 70
+# GRADING 4 0.10
+# NOTE Bare minimum to getting started: flat shading, sphere intersections, casting rays.
+# DEBUG 350 240
