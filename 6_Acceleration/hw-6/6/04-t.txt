@@ -1,0 +1,234 @@
+debug pixel: -x 240 -y 350
+  cast ray (end: (0.02 0.01 1); dir: (-0.185895 0.222136 -0.95713))
+    no intersection with Pb
+    Begin traversal; dist: 0.870127; inc_dist: (0.139855 0.14844 0.0304863); index: (14 15 39); inc_index: (-1 1 -1); next_cross: (0.942689 0.894172 0.900613); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 0.870127; index: (14 15 39); next_cross: (0.942689 0.894172 0.900613); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 0.894172; index: (14 16 39); next_cross: (0.942689 1.04261 0.900613); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 0.900613; index: (14 16 38); next_cross: (0.942689 1.04261 0.9311); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 0.9311; index: (14 16 37); next_cross: (0.942689 1.04261 0.961586); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 0.942689; index: (13 16 37); next_cross: (1.08254 1.04261 0.961586); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 0.961586; index: (13 16 36); next_cross: (1.08254 1.04261 0.992072); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      no intersection with M; part: 105
+      no intersection with M; part: 10023
+      Visit cell; dist: 0.992072; index: (13 16 35); next_cross: (1.08254 1.04261 1.02256); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      no intersection with M; part: 2576
+      no intersection with M; part: 4800
+      no intersection with M; part: 4801
+      no intersection with M; part: 5248
+      no intersection with M; part: 5249
+      no intersection with M; part: 6924
+      no intersection with M; part: 6925
+      no intersection with M; part: 7574
+      no intersection with M; part: 7575
+      no intersection with M; part: 9653
+      no intersection with M; part: 9654
+      no intersection with M; part: 9655
+      no intersection with M; part: 11971
+      Visit cell; dist: 1.02256; index: (13 16 34); next_cross: (1.08254 1.04261 1.05304); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      no intersection with M; part: 800
+      no intersection with M; part: 2332
+      no intersection with M; part: 2451
+      no intersection with M; part: 3283
+      no intersection with M; part: 3840
+      no intersection with M; part: 3841
+      no intersection with M; part: 7576
+      no intersection with M; part: 7577
+      no intersection with M; part: 8361
+      no intersection with M; part: 10278
+      no intersection with M; part: 10638
+      no intersection with M; part: 10639
+      no intersection with M; part: 11058
+      no intersection with M; part: 11059
+      no intersection with M; part: 11061
+      no intersection with M; part: 12117
+      no intersection with M; part: 12118
+      no intersection with M; part: 12119
+      intersect test with Sg; part: 0; hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+      Visit cell; dist: 1.04261; index: (13 17 34); next_cross: (1.08254 1.19105 1.05304); best_hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+      Visit cell; dist: 1.05304; index: (13 17 33); next_cross: (1.08254 1.19105 1.08353); best_hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+      Visit cell; dist: 1.08254; index: (12 17 33); next_cross: (1.2224 1.19105 1.08353); best_hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+      Visit cell; dist: 1.08353; index: (12 17 32); next_cross: (1.2224 1.19105 1.11402); best_hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+      Visit cell; dist: 1.11402; index: (12 17 31); next_cross: (1.2224 1.19105 1.1445); best_hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+      Visit cell; dist: 1.1445; index: (12 17 30); next_cross: (1.2224 1.19105 1.17499); best_hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+      Finish traversal; best_hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+    closest intersection; obj: Sg; hit: (dist: 1.15252; triangle: -1; uv: (0 0))
+  call Shade_Surface with location (-0.194248 0.266016 -0.103113); normal: (-0.388496 -0.467968 0.793774)
+    ambient: (0 0 0)
+      no intersection with Pb
+      Begin traversal; dist: 0; inc_dist: (0.111276 0.262779 0.030263); index: (12 17 30); inc_index: (1 1 1); next_cross: (0.0556772 0.0682102 0.00795849); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0; index: (12 17 30); next_cross: (0.0556772 0.0682102 0.00795849); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        no intersection with Sg; part: 0
+        Visit cell; dist: 0.00795849; index: (12 17 31); next_cross: (0.0556772 0.0682102 0.0382215); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0382215; index: (12 17 32); next_cross: (0.0556772 0.0682102 0.0684845); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0556772; index: (13 17 32); next_cross: (0.166953 0.0682102 0.0684845); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0682102; index: (13 18 32); next_cross: (0.166953 0.33099 0.0684845); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0684845; index: (13 18 33); next_cross: (0.166953 0.33099 0.0987475); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0987475; index: (13 18 34); next_cross: (0.166953 0.33099 0.129011); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.129011; index: (13 18 35); next_cross: (0.166953 0.33099 0.159274); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.159274; index: (13 18 36); next_cross: (0.166953 0.33099 0.189537); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.166953; index: (14 18 36); next_cross: (0.278229 0.33099 0.189537); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.189537; index: (14 18 37); next_cross: (0.278229 0.33099 0.2198); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.2198; index: (14 18 38); next_cross: (0.278229 0.33099 0.250063); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.250063; index: (14 18 39); next_cross: (0.278229 0.33099 0.280326); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.278229; index: (15 18 39); next_cross: (0.389505 0.33099 0.280326); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Finish traversal; best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      closest intersection: none
+    light L0 visible; no object on ray.
+    shading for light L0: diffuse: (0 0.270629 0); specular: (0 5.47095e-73 0)
+      no intersection with Pb
+      Begin traversal; dist: 0; inc_dist: (0.105078 0.035486 0.106296); index: (12 17 30); inc_index: (1 1 1); next_cross: (0.052576 0.00921118 0.0279534); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0; index: (12 17 30); next_cross: (0.052576 0.00921118 0.0279534); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+        intersect test with Sg; part: 0; hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.00921118; index: (12 18 30); next_cross: (0.052576 0.0446972 0.0279534); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        no intersection with Sr; part: 0
+        Visit cell; dist: 0.0279534; index: (12 18 31); next_cross: (0.052576 0.0446972 0.134249); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0446972; index: (12 19 31); next_cross: (0.052576 0.0801832 0.134249); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.052576; index: (13 19 31); next_cross: (0.157654 0.0801832 0.134249); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0801832; index: (13 20 31); next_cross: (0.157654 0.115669 0.134249); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.115669; index: (13 21 31); next_cross: (0.157654 0.151155 0.134249); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.134249; index: (13 21 32); next_cross: (0.157654 0.151155 0.240545); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.151155; index: (13 22 32); next_cross: (0.157654 0.186641 0.240545); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.157654; index: (14 22 32); next_cross: (0.262731 0.186641 0.240545); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.186641; index: (14 23 32); next_cross: (0.262731 0.222127 0.240545); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.222127; index: (14 24 32); next_cross: (0.262731 0.257613 0.240545); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.240545; index: (14 24 33); next_cross: (0.262731 0.257613 0.34684); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.257613; index: (14 25 33); next_cross: (0.262731 0.293099 0.34684); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.262731; index: (15 25 33); next_cross: (0.367809 0.293099 0.34684); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.293099; index: (15 26 33); next_cross: (0.367809 0.328585 0.34684); best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+        Finish traversal; best_hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+      closest intersection; obj: Sg; hit: (dist: 0.313061; triangle: -1; uv: (0 0))
+    light L1 not visible; obscured by object Sg at location (-0.11679 0.556915 -0.0171742)
+    final color (0 0.270629 0)
+    cast ray (end: (-0.194248 0.266016 -0.103113); dir: (-0.800867 -0.518637 0.29938))
+      intersect test with Pb; hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+      Begin traversal; dist: 0; inc_dist: (0.0324628 0.0635779 0.097466); index: (12 17 30); inc_index: (-1 -1 1); next_cross: (0.0162199 0.0470749 0.0256314); best_hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0; index: (12 17 30); next_cross: (0.0162199 0.0470749 0.0256314); best_hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+        no intersection with Sg; part: 0
+        Visit cell; dist: 0.0162199; index: (11 17 30); next_cross: (0.0486827 0.0470749 0.0256314); best_hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0256314; index: (11 17 31); next_cross: (0.0486827 0.0470749 0.123097); best_hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+        Visit cell; dist: 0.0470749; index: (11 16 31); next_cross: (0.0486827 0.110653 0.123097); best_hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+        no intersection with M; part: 2013
+        no intersection with M; part: 4778
+        no intersection with M; part: 7684
+        no intersection with M; part: 7685
+        no intersection with M; part: 9888
+        Visit cell; dist: 0.0486827; index: (10 16 31); next_cross: (0.0811455 0.110653 0.123097); best_hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+        no intersection with M; part: 1205
+        no intersection with M; part: 4032
+        Visit cell; dist: 0.0811455; index: (9 16 31); next_cross: (0.113608 0.110653 0.123097); best_hit: (dist: 1.12992; triangle: -1; uv: (0 0))
+        no intersection with M; part: 515
+        no intersection with M; part: 4033
+        mesh M triangle 6017 intersected; weights: (0.286213 0.217058 0.496729); dist 0.110634
+        intersect test with M; part: 6017; hit: (dist: 0.110634; triangle: 6017; uv: (0 0))
+        no intersection with M; part: 6392
+        Finish traversal; best_hit: (dist: 0.110634; triangle: 6017; uv: (0 0))
+      closest intersection; obj: M; hit: (dist: 0.110634; triangle: 6017; uv: (0 0))
+    call Shade_Surface with location (-0.282851 0.208637 -0.0699913); normal: (0.0661459 0.900628 -0.429527)
+      ambient: (0 0 0)
+        no intersection with Pb
+        Begin traversal; dist: 0; inc_dist: (0.102108 0.237138 0.0304907); index: (9 16 31); inc_index: (1 1 1); next_cross: (0.0927532 0.237067 0.00389898); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          Visit cell; dist: 0; index: (9 16 31); next_cross: (0.0927532 0.237067 0.00389898); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          no intersection with M; part: 515
+          no intersection with M; part: 1205
+          no intersection with M; part: 4032
+          no intersection with M; part: 4033
+          no intersection with M; part: 6017
+          no intersection with M; part: 6392
+          no intersection with Sg; part: 0
+          Visit cell; dist: 0.00389898; index: (9 16 32); next_cross: (0.0927532 0.237067 0.0343897); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          no intersection with M; part: 710
+          no intersection with M; part: 748
+          no intersection with M; part: 3570
+          no intersection with M; part: 3571
+          no intersection with M; part: 4694
+          no intersection with M; part: 6393
+          no intersection with M; part: 6408
+          no intersection with M; part: 6409
+          no intersection with M; part: 6410
+          no intersection with M; part: 7032
+          Visit cell; dist: 0.0343897; index: (9 16 33); next_cross: (0.0927532 0.237067 0.0648803); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          no intersection with M; part: 730
+          no intersection with M; part: 749
+          no intersection with M; part: 1475
+          no intersection with M; part: 3178
+          no intersection with M; part: 3862
+          no intersection with M; part: 5584
+          no intersection with M; part: 5585
+          no intersection with M; part: 6988
+          no intersection with M; part: 7282
+          no intersection with M; part: 7801
+          no intersection with M; part: 8278
+          no intersection with M; part: 8279
+          no intersection with M; part: 9316
+          no intersection with M; part: 9317
+          no intersection with M; part: 10377
+          no intersection with M; part: 10871
+          Visit cell; dist: 0.0648803; index: (9 16 34); next_cross: (0.0927532 0.237067 0.095371); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          no intersection with M; part: 140
+          no intersection with M; part: 731
+          no intersection with M; part: 1075
+          no intersection with M; part: 4304
+          no intersection with M; part: 4306
+          mesh M triangle 4307 intersected; weights: (0.566759 0.0339748 0.399266); dist 0.093128
+          intersect test with M; part: 4307; hit: (dist: 0.093128; triangle: 4307; uv: (0 0))
+          no intersection with M; part: 5377
+          no intersection with M; part: 5498
+          no intersection with M; part: 5499
+          no intersection with M; part: 5914
+          no intersection with M; part: 5915
+          no intersection with M; part: 6742
+          no intersection with M; part: 6882
+          no intersection with M; part: 7470
+          no intersection with M; part: 8970
+          no intersection with M; part: 8971
+          no intersection with M; part: 9505
+          no intersection with M; part: 9640
+          no intersection with M; part: 9641
+          no intersection with M; part: 10952
+          Visit cell; dist: 0.0927532; index: (10 16 34); next_cross: (0.194862 0.237067 0.095371); best_hit: (dist: 0.093128; triangle: 4307; uv: (0 0))
+          no intersection with M; part: 1
+          no intersection with M; part: 801
+          no intersection with M; part: 1074
+          no intersection with M; part: 3863
+          no intersection with M; part: 5616
+          no intersection with M; part: 6481
+          no intersection with M; part: 9504
+          no intersection with M; part: 9507
+          no intersection with M; part: 10870
+          no intersection with M; part: 10953
+          no intersection with M; part: 11764
+          no intersection with M; part: 11951
+          Finish traversal; best_hit: (dist: 0.093128; triangle: 4307; uv: (0 0))
+        closest intersection; obj: M; hit: (dist: 0.093128; triangle: 4307; uv: (0 0))
+      light L0 not visible; obscured by object M at location (-0.259139 0.221587 0.0191316)
+        no intersection with Pb
+        Begin traversal; dist: 0; inc_dist: (0.0980911 0.0355326 0.111416); index: (9 16 31); inc_index: (1 1 1); next_cross: (0.089104 0.0355221 0.0142473); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          Visit cell; dist: 0; index: (9 16 31); next_cross: (0.089104 0.0355221 0.0142473); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          no intersection with M; part: 515
+          no intersection with M; part: 1205
+          no intersection with M; part: 4032
+          no intersection with M; part: 4033
+          no intersection with M; part: 6017
+          no intersection with M; part: 6392
+          no intersection with Sg; part: 0
+          Visit cell; dist: 0.0142473; index: (9 16 32); next_cross: (0.089104 0.0355221 0.125663); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          no intersection with M; part: 710
+          no intersection with M; part: 748
+          no intersection with M; part: 3570
+          no intersection with M; part: 3571
+          no intersection with M; part: 4694
+          no intersection with M; part: 6393
+          no intersection with M; part: 6408
+          no intersection with M; part: 6409
+          no intersection with M; part: 6410
+          no intersection with M; part: 7032
+          Visit cell; dist: 0.0355221; index: (9 17 32); next_cross: (0.089104 0.0710547 0.125663); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          Visit cell; dist: 0.0710547; index: (9 18 32); next_cross: (0.089104 0.106587 0.125663); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+          intersect test with Sr; part: 0; hit: (dist: 0.122021; triangle: -1; uv: (0 0))
+          Visit cell; dist: 0.089104; index: (10 18 32); next_cross: (0.187195 0.106587 0.125663); best_hit: (dist: 0.122021; triangle: -1; uv: (0 0))
+          Visit cell; dist: 0.106587; index: (10 19 32); next_cross: (0.187195 0.14212 0.125663); best_hit: (dist: 0.122021; triangle: -1; uv: (0 0))
+          Finish traversal; best_hit: (dist: 0.122021; triangle: -1; uv: (0 0))
+        closest intersection; obj: Sr; hit: (dist: 0.122021; triangle: -1; uv: (0 0))
+      light L1 not visible; obscured by object Sr at location (-0.25051 0.321871 -0.0380347)
+      final color (0 0 0)
+  reflected ray: (end: (-0.194248 0.266016 -0.103113); dir: (-0.800867 -0.518637 0.29938)); reflected color: (0 0 0); object color: (0 0.270629 0); final color: (0 0.0541258 0)

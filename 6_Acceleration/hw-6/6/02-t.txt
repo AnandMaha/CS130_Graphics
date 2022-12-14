@@ -1,0 +1,17 @@
+debug pixel: -x 250 -y 260
+  cast ray (end: (0.02 0.01 4); dir: (-0.155137 0.0418344 -0.987007))
+    Begin traversal; dist: 3.03949; inc_dist: (0.322296 1.19519 0.0506582); index: (10 22 39); inc_index: (-1 1 -1); next_cross: (3.35188 3.34653 3.09015); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 3.03949; index: (10 22 39); next_cross: (3.35188 3.34653 3.09015); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 3.09015; index: (10 22 38); next_cross: (3.35188 3.34653 3.14081); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      no intersection with M; part: 242
+      Visit cell; dist: 3.14081; index: (10 22 37); next_cross: (3.35188 3.34653 3.19147); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      no intersection with M; part: 240
+      mesh M triangle 241 intersected; weights: (0.075197 0.240457 0.684346); dist 3.17349
+      intersect test with M; part: 241; hit: (dist: 3.17349; triangle: 241; uv: (0 0))
+      no intersection with M; part: 245
+      Finish traversal; best_hit: (dist: 3.17349; triangle: 241; uv: (0 0))
+    closest intersection; obj: M; hit: (dist: 3.17349; triangle: 241; uv: (0 0))
+  call Shade_Surface with location (-0.472326 0.142761 0.867741); normal: (-0.510327 0.132721 0.849677)
+    ambient: (0 0 0)
+    shading for light L: diffuse: (0.408926 0.408926 0.408926); specular: (0 0 0)
+    final color (0.408926 0.408926 0.408926)

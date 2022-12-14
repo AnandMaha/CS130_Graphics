@@ -1,0 +1,13 @@
+size 640 480
+color white 1 1 1
+color black 0 0 0
+phong_shader white_shader white white white 50
+mesh M sphere-4.obj
+shaded_object M white_shader
+point_light L .8 .8 4 white 100
+ambient_light white 0
+enable_shadows 0
+camera 0.02 0.01 4 0 0 0 0 1 0 70
+# GRADING 5 0.10
+# NOTE Large triangle mesh; this test will need the acceleration structure, but it is small enough to be run without it for testing and debugging purposes.
+# DEBUG 250 260
