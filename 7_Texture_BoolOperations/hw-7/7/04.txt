@@ -1,0 +1,14 @@
+size 640 480
+color white 1 1 1
+color black 0 0 0
+texture tex1 world.png 0
+phong_shader white_shader tex1 tex1 black 50
+mesh M sphere-5t.obj
+shaded_object M white_shader
+point_light L .8 .8 4 white 100
+ambient_light white .3
+enable_shadows 0
+camera 0.02 0.01 3 0 0 0 0 1 0 70
+# GRADING 2 0.10
+# NOTE Extra credit.  Texture mapping with large mesh; acceleration needed.
+# DEBUG 250 260

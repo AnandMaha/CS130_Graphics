@@ -1,0 +1,6 @@
+# <num-points> <max-error> <test>
+2 0.10 7/00.txt
+2 0.10 7/01.txt
+2 0.10 7/02.txt
+2 0.10 7/03.txt
+2 0.10 7/04.txt

@@ -1,0 +1,12 @@
+debug pixel: -x 250 -y 260
+  cast ray (end: (0.02 0.01 3); dir: (-0.156782 0.0410113 -0.986781))
+    mesh M triangle 5 intersected; weights: (0.381336 0.202289 0.416375); dist 2.27676
+    mesh M triangle 18 intersected; weights: (0.615625 0.044954 0.339421); dist 3.64453
+    intersect test with M; hit: (dist: 2.27676; triangle: 5; uv: (0.177047 0.535078))
+    closest intersection; obj: M; hit: (dist: 2.27676; triangle: 5; uv: (0.177047 0.535078))
+  call Shade_Surface with location (-0.336956 0.103373 0.753331); normal: (-0.590691 0 0.806898)
+    texture (u,v): (0.177047 0.535078)  (i,j): 177 267  color: (0.0352941 0.392157 0.611765)
+    ambient: (0.0105882 0.117647 0.183529)
+    texture (u,v): (0.177047 0.535078)  (i,j): 177 267  color: (0.0352941 0.392157 0.611765)
+    shading for light L: diffuse: (0.0126549 0.14061 0.219352); specular: (0 0 0)
+    final color (0.0232432 0.258257 0.402881)

@@ -1,0 +1,22 @@
+debug pixel: -x 250 -y 260
+  cast ray (end: (0.02 0.01 3); dir: (-0.156782 0.0410113 -0.986781))
+    Begin traversal; dist: 2.02679; inc_dist: (0.318914 1.21918 0.0506698); index: (14 21 39); inc_index: (-1 1 -1); next_cross: (2.04105 2.19452 2.07746); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      Visit cell; dist: 2.02679; index: (14 21 39); next_cross: (2.04105 2.19452 2.07746); best_hit: (dist: inf; triangle: -1; uv: (0 0))
+      no intersection with M; part: 249
+      no intersection with M; part: 250
+      mesh M triangle 251 intersected; weights: (0.433088 0.5435 0.0234123); dist 2.08229
+      intersect test with M; part: 251; hit: (dist: 2.08229; triangle: 251; uv: (0.200117 0.530427))
+      no intersection with M; part: 252
+      no intersection with M; part: 253
+      no intersection with M; part: 269
+      Visit cell; dist: 2.04105; index: (13 21 39); next_cross: (2.35997 2.19452 2.07746); best_hit: (dist: 2.08229; triangle: 251; uv: (0.200117 0.530427))
+      Visit cell; dist: 2.07746; index: (13 21 38); next_cross: (2.35997 2.19452 2.12813); best_hit: (dist: 2.08229; triangle: 251; uv: (0.200117 0.530427))
+      no intersection with M; part: 243
+      Finish traversal; best_hit: (dist: 2.08229; triangle: 251; uv: (0.200117 0.530427))
+    closest intersection; obj: M; hit: (dist: 2.08229; triangle: 251; uv: (0.200117 0.530427))
+  call Shade_Surface with location (-0.306466 0.0953974 0.945233); normal: (-0.326862 0.122149 0.937145)
+    texture (u,v): (0.200117 0.530427)  (i,j): 200 265  color: (0.12549 0.45098 0.647059)
+    ambient: (0.0376471 0.135294 0.194118)
+    texture (u,v): (0.200117 0.530427)  (i,j): 200 265  color: (0.12549 0.45098 0.647059)
+    shading for light L: diffuse: (0.0703142 0.252692 0.362558); specular: (0 0 0)
+    final color (0.107961 0.387986 0.556675)

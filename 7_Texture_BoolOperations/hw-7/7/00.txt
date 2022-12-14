@@ -1,0 +1,14 @@
+size 640 480
+color white 1 1 1
+color black 0 0 0
+texture tex1 texture1.png 0
+phong_shader white_shader white tex1 white 50
+mesh M hedront.obj
+shaded_object M white_shader
+point_light L .8 .8 4 white 100
+ambient_light white .3
+enable_shadows 0
+camera 0.02 0.01 4 0 0 0 0 1 0 70
+# GRADING 2 0.10
+# NOTE Basic texture mapping test, small mesh
+# DEBUG 280 290
