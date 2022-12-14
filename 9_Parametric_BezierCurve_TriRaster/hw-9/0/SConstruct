@@ -1,0 +1,8 @@
+import os
+env = Environment(ENV = os.environ)
+
+env.Append(LIBS=["png"])
+env.Append(CXXFLAGS=["-std=c++11","-g","-Wall","-O0","-I/usr/include/libpng12"])
+
+env.Program("raster",["main.cpp","raster.cpp","dump_png.cpp"]);
+
